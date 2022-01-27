@@ -1,10 +1,3 @@
-//
-//  Theme.swift
-//  Scrumdinger
-//
-//  Created by Dev Better on 25/01/2022.
-//
-
 import SwiftUI
 
 enum Theme: String {
@@ -34,5 +27,9 @@ enum Theme: String {
     
     var mainColor: Color {
         Color(rawValue)
+    }
+    
+    var name: String {
+        rawValue
     }
 }
