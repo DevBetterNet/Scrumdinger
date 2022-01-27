@@ -26,7 +26,6 @@ struct CardView: View {
             .font(.caption)
         }
         .padding()
-        //.foregroundColor(.yellow)
         .foregroundColor(scrum.theme.accentColor)
     }
 }
@@ -35,6 +34,6 @@ struct CardView_Previews: PreviewProvider {
     static var scrum = DailyScrum.sampleData[2]
     static var previews: some View {
         CardView(scrum: scrum)
-            .previewLayout(.fixed(width: 400, height: 60))
+            .previewLayout(.fixed(width: 400, height: 100))
     }
 }
